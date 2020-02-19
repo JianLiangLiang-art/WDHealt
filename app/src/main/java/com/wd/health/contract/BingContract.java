@@ -8,18 +8,7 @@ import com.wd.health.model.bean.SickCircleListBean;
 
 import java.util.Map;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.contract
- * @ClassName: BingContract
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/9 10:46
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/9 10:46
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public interface BingContract {
     interface IView extends IBaseView{
         void DeparSuccess(DepartmentsBean departmentsBean);

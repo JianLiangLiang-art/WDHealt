@@ -6,7 +6,7 @@ package com.wd.health.app;
  * @CreateDate: 2020/1/7 14:00
  */
 public interface Constant {
-    String BASE_URL = "http://172.17.8.100/health/";
+    String BASE_URL = "http://mobile.bwstudent.com/health/";
 
     String SUCCESS_CODE = "0000";
 

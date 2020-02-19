@@ -29,18 +29,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.view.activity
- * @ClassName: DetailsActivity
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/9 20:01
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/9 20:01
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class DetailsActivity extends BaseActivity<BingPresenter> implements BingContract.IView {
     @BindView(R.id.fanhui_text)
     ImageView fanhuiText;

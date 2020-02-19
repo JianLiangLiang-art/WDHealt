@@ -20,18 +20,7 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.util.List;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.adapter
- * @ClassName: DeparAdapter
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/9 11:00
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/9 11:00
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class DeparAdapter extends RecyclerView.Adapter<DeparAdapter.ViewHolder> {
     private Context context;
     private List<DepartmentsBean.ResultBean> list;

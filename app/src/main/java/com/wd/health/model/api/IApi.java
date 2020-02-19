@@ -1,5 +1,6 @@
 package com.wd.health.model.api;
 
+
 import com.wd.health.model.bean.BannerBean;
 
 import com.wd.health.model.bean.ChaXunShiPin_ResutBean;
@@ -11,11 +12,10 @@ import com.wd.health.model.bean.LoginBean;
 import com.wd.health.model.bean.SearchSickCircleBean;
 import com.wd.health.model.bean.SickCircleInfoBean;
 import com.wd.health.model.bean.SickCircleListBean;
-
+import io.reactivex.Observable;
 
 import java.util.Map;
 
-import io.reactivex.Observable;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;

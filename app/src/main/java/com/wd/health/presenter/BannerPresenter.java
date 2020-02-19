@@ -6,18 +6,7 @@ import com.wd.health.contract.BannerContract;
 import com.wd.health.model.BannerModel;
 import com.wd.health.model.bean.BannerBean;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.presenter
- * @ClassName: BannerPresenter
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/8 19:49
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/8 19:49
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class BannerPresenter extends BasePresenter<BannerContract.IView> implements BannerContract.IPresenter {
 
     private BannerModel bannerModel;

@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         // pramsstime = System.currentTimeMillis();
+        // pramsstime = System.currentTimeMillis();
         super.onBackPressed();
     }
 

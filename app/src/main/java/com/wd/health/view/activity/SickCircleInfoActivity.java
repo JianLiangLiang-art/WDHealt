@@ -22,18 +22,7 @@ import com.wd.health.presenter.BingPresenter;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.view.activity
- * @ClassName: SickCircleInfoActivity
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/11 19:11
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/11 19:11
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class SickCircleInfoActivity extends BaseActivity<BingPresenter> implements BingContract.IView {
     @BindView(R.id.text_title)
     TextView textTitle;

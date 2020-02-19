@@ -12,18 +12,7 @@ import com.wd.health.utils.RetrofitManager;
 
 import java.util.Map;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.model
- * @ClassName: BingModel
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/9 10:51
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/9 10:51
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class BingModel implements BingContract.IModel {
     @Override
     public void Depar(IModelCall iModelCall) {

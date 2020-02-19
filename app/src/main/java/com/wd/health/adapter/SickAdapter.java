@@ -18,18 +18,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.adapter
- * @ClassName: SickAdapter
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/9 14:21
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/9 14:21
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class SickAdapter extends RecyclerView.Adapter<SickAdapter.ViewHolder> {
     private Context context;
     private List<SickCircleListBean.ResultBean> list;

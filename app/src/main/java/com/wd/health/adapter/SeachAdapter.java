@@ -17,18 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @ProjectName: WDHealth
- * @Package: com.wd.health.adapter
- * @ClassName: SeachAdapter
- * @Description: java类作用描述
- * @Author: jialiang
- * @CreateDate: 2020/1/11 13:55
- * @UpdateUser: 更新者
- * @UpdateDate: 2020/1/11 13:55
- * @UpdateRemark: 更新说明
- * @Version: 1.0
- */
+
 public class SeachAdapter extends RecyclerView.Adapter<SeachAdapter.ViewHolder> {
     private Context context;
     private List<SearchSickCircleBean.ResultBean> list;
